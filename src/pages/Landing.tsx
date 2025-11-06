@@ -28,21 +28,14 @@ export default function Landing() {
   };
 
   const longFormVideos = [
-    { src: "https://youtu.be/earK6btHWbo?autoplay=1&mute=1&loop=1&playlist=yeilG5tMRk0&controls=0&showinfo=0&rel=0&modestbranding=0&playsinline=1&iv_load_policy=3&disablekb=1&fs=0&cc_load_policy=0", title: "Big Buck Bunny", description: "A large and lovable rabbit deals with three tiny bullies" },
     { src: "https://youtu.be/mv2T5L6t3xI", title: "Elephants Dream", description: "An experimental short film" },
     { src: "https://youtu.be/Lkyu-JnpexI", title: "Big Buck Bunny", description: "A large and lovable rabbit deals with three tiny bullies" },
     { src: "https://youtu.be/eLXd9rZ3J-4", title: "For Bigger Escapes", description: "Adventure awaits" },
     { src: "https://youtu.be/eViZ6pnSRBU", title: "For Bigger Fun", description: "Entertainment at its finest" },
-    { src: "https://www.youtube.com/watch?v=yeilG5tMRk0", title: "Big Buck Bunny", description: "A large and lovable rabbit deals with three tiny bullies" },
-    { src: "https://drive.google.com/file/d/123plqXfUse61H1aCXxTEMXR7EJv_faUz/view?usp=drive_link", title: "Elephants Dream", description: "An experimental short film" },
-    { src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", title: "For Bigger Blazes", description: "High-quality video content" },
-    { src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4", title: "For Bigger Escapes", description: "Adventure awaits" },
-    { src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4", title: "For Bigger Fun", description: "Entertainment at its finest" },
-    { src: "https://www.youtube.com/watch?v=yeilG5tMRk0", title: "Big Buck Bunny", description: "A large and lovable rabbit deals with three tiny bullies" },
-    { src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", title: "Elephants Dream", description: "An experimental short film" },
-    { src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", title: "For Bigger Blazes", description: "High-quality video content" },
-    { src: "https://drive.google.com/file/d/123plqXfUse61H1aCXxTEMXR7EJv_faUz/view?usp=drive_link", title: "For Bigger Escapes", description: "Adventure awaits" },
-    { src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4", title: "For Bigger Fun", description: "Entertainment at its finest" },
+    { src: "https://youtu.be/mv2T5L6t3xI", title: "Elephants Dream", description: "An experimental short film" },
+    { src: "https://youtu.be/Lkyu-JnpexI", title: "Big Buck Bunny", description: "A large and lovable rabbit deals with three tiny bullies" },
+    { src: "https://youtu.be/eLXd9rZ3J-4", title: "For Bigger Escapes", description: "Adventure awaits" },
+    { src: "https://youtu.be/eViZ6pnSRBU", title: "For Bigger Fun", description: "Entertainment at its finest" },
   ];
 
   const shortFormVideos = [

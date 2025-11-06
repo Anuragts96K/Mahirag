@@ -5,12 +5,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "tsc -b && vite build",
+  "lint": "eslint .",
+  "format": "prettier --write .",
+  "preview": "vite preview",
+  "predeploy": "npm run build && cp dist/index.html dist/404.html",
+  "deploy": "gh-pages -d dist"
+},
+
   "dependencies": {
     "@faker-js/faker": "^9.8.0",
     "@hookform/resolvers": "^5.0.1",

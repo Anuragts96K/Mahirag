@@ -4,7 +4,7 @@ import Team from "@/pages/Team.tsx";
 import ThreeDWork from "@/pages/ThreeDWork.tsx";
 import { StrictMode, useEffect } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router";
+import { HashRouter, Route, Routes, useLocation } from "react-router";
 import "./index.css";
 import Landing from "./pages/Landing.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -37,7 +37,7 @@ function RouteSyncer() {
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <InstrumentationProvider>
-      <BrowserRouter>
+  <HashRouter>
         <RouteSyncer />
         <Routes>
           <Route path="/" element={<Landing />} />
@@ -45,7 +45,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/3d-work" element={<ThreeDWork />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
+  </HashRouter>
       <Toaster />
     </InstrumentationProvider>
   </StrictMode>,
